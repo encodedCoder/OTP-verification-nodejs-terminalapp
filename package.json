@@ -1,0 +1,15 @@
+{
+  "name": "my-terminal-app",
+  "version": "1.0.0",
+  "description": "A terminal-based application for email OTP verification.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.7.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
