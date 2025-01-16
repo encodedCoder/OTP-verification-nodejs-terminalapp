@@ -30,17 +30,41 @@ my-terminal-app
    npm install
    ```
 
+##
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add the following environment variables:
+
+```
+SMTP_SERVER=<your-smtp-server>
+SMTP_PORT=<your-smtp-port>
+EMAIL_USERNAME=<your-email-username>
+EMAIL_PASSWORD=<your-email-app-password>
+RECEIVER_EMAIL=<receiver-email>
+MONGO_URI=<your-mongo-uri>
+DATABASE_NAME=<your-database-name>
+USERS_COLLECTION=<your-users-collection>
+TEST_EMAILS=<your-test-emails>
+```
+
 ## Usage
 
 1. Start the application:
    ```
    node src/app.js
    ```
+   ```
+   or
+   ```
+   ```
+   npm start
+   ```
 2. Follow the prompts to generate and verify your OTP.
 
 ## Contributing
 
-Feel free to submit issues or pull requests for improvements or bug fixes. 
+Feel free to submit issues or pull requests for improvements or bug fixes.
 
 ## License
 
