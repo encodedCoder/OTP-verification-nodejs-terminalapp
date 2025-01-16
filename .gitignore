@@ -45,4 +45,4 @@ coverage/
 tmp/
 temp/
 # Ignore workspace settings file
-.code-workspace
+iit-connect-new.code-workspace
